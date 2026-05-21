@@ -1,0 +1,21 @@
+{
+  "name": "web-search-mcp",
+  "version": "1.0.0",
+  "description": "Free web search MCP server using DuckDuckGo - zero runtime dependencies",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "web-search-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js"
+  },
+  "keywords": ["mcp", "web-search", "duckduckgo", "claude-code"],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0"
+  }
+}
